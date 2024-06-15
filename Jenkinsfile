@@ -1,5 +1,5 @@
 pipeline {
-   agent {label 'uat'}
+   agent any
 
    stages{
     stage ('cloning the Git repo') {
